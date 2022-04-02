@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E926133027ECF77400E59D7B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E926132F27ECF77400E59D7B /* GradientView.swift */; };
-		E93B99DE27EFDC4700CA2CA5 /* Overpass-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E93B99DD27EFDC4700CA2CA5 /* Overpass-VariableFont_wght.ttf */; };
+		E95AC8AC27F8E1FF006E66A0 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95AC8AB27F8E1FF006E66A0 /* UIColorExtension.swift */; };
 		E9C0C97B27E7D4B10070F2EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C0C97A27E7D4B10070F2EE /* AppDelegate.swift */; };
 		E9C0C97D27E7D4B10070F2EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C0C97C27E7D4B10070F2EE /* SceneDelegate.swift */; };
 		E9C0C97F27E7D4B10070F2EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C0C97E27E7D4B10070F2EE /* MainViewController.swift */; };
@@ -19,8 +19,8 @@
 
 /* Begin PBXFileReference section */
 		E926132F27ECF77400E59D7B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		E93B99DD27EFDC4700CA2CA5 /* Overpass-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Overpass-VariableFont_wght.ttf"; path = "../../../Downloads/Overpass/Overpass-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		E93B99E127EFE40F00CA2CA5 /* Overpass-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		E95AC8AB27F8E1FF006E66A0 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		E9C0C97727E7D4B10070F2EE /* weatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C0C97A27E7D4B10070F2EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9C0C97C27E7D4B10070F2EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		E93B99DA27EFA00A00CA2CA5 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
-				E93B99E127EFE40F00CA2CA5 /* Overpass-VariableFont_wght.ttf */,
+				E95AC8A927F8DE18006E66A0 /* Fonts */,
 				E9C0C98327E7D4B10070F2EE /* Assets.xcassets */,
 			);
 			path = Resourses;
@@ -87,6 +87,22 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		E95AC8A927F8DE18006E66A0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E93B99E127EFE40F00CA2CA5 /* Overpass-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E95AC8AA27F8E1DA006E66A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E95AC8AB27F8E1FF006E66A0 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E9C0C96E27E7D4B10070F2EE = {
 			isa = PBXGroup;
 			children = (
@@ -106,11 +122,11 @@
 		E9C0C97927E7D4B10070F2EE /* weatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				E95AC8AA27F8E1DA006E66A0 /* Extensions */,
 				E93B99D927EFA00200CA2CA5 /* Application */,
 				E93B99E227EFE44600CA2CA5 /* Modules */,
 				E93B99DA27EFA00A00CA2CA5 /* Resourses */,
 				E9C0C98827E7D4B10070F2EE /* Info.plist */,
-				E93B99DD27EFDC4700CA2CA5 /* Overpass-VariableFont_wght.ttf */,
 			);
 			path = weatherApp;
 			sourceTree = "<group>";
@@ -173,7 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E93B99DE27EFDC4700CA2CA5 /* Overpass-VariableFont_wght.ttf in Resources */,
 				E9C0C98727E7D4B10070F2EE /* LaunchScreen.storyboard in Resources */,
 				E9C0C98427E7D4B10070F2EE /* Assets.xcassets in Resources */,
 				E9C0C98227E7D4B10070F2EE /* Main.storyboard in Resources */,
@@ -189,6 +204,7 @@
 			files = (
 				E9C0C97F27E7D4B10070F2EE /* MainViewController.swift in Sources */,
 				E9C0C97B27E7D4B10070F2EE /* AppDelegate.swift in Sources */,
+				E95AC8AC27F8E1FF006E66A0 /* UIColorExtension.swift in Sources */,
 				E926133027ECF77400E59D7B /* GradientView.swift in Sources */,
 				E9C0C97D27E7D4B10070F2EE /* SceneDelegate.swift in Sources */,
 			);
@@ -346,8 +362,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,7 +376,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -375,8 +393,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +406,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

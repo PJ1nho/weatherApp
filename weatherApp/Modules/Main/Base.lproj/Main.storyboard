@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -32,67 +33,67 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WHU-wU-vah">
                                 <rect key="frame" x="31" y="407" width="353" height="335"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="29" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiH-G5-v8k">
-                                        <rect key="frame" x="116" y="31" width="121" height="153"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="29°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiH-G5-v8k">
+                                        <rect key="frame" x="95.5" y="31" width="162" height="153"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="153" id="iSr-aJ-qmE"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="100"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today, 12 September" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33g-2j-PL2">
-                                        <rect key="frame" x="93" y="8" width="167" height="23"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today, 12 September" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33g-2j-PL2">
+                                        <rect key="frame" x="5" y="8" width="343" height="23"/>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="18"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cloudy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dce-fh-l87">
                                         <rect key="frame" x="138" y="170" width="77" height="30.5"/>
                                         <fontDescription key="fontDescription" name="OverpassRoman-Bold" family="Overpass" pointSize="24"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4m9-Ka-ilf">
-                                        <rect key="frame" x="253" y="39" width="30" height="91.5"/>
-                                        <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="72"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wind" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTx-px-Frj">
-                                        <rect key="frame" x="111" y="242" width="40" height="23"/>
+                                        <rect key="frame" x="111" y="242" width="40.5" height="23"/>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="18"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgm-LK-0yH">
-                                        <rect key="frame" x="174" y="242" width="5" height="19"/>
+                                        <rect key="frame" x="174.5" y="242" width="4.5" height="19"/>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="15"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 km/h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19y-vH-X2c">
-                                        <rect key="frame" x="202" y="242" width="67" height="23"/>
+                                        <rect key="frame" x="202" y="242" width="80" height="23"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="F36-tJ-5nQ"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="18"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JoR-ZF-caH">
                                         <rect key="frame" x="111" y="273" width="38" height="28"/>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="18"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="54%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rx1-ql-rup">
-                                        <rect key="frame" x="202" y="273" width="43" height="28"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="54%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rx1-ql-rup">
+                                        <rect key="frame" x="201.5" y="278" width="60" height="23"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="Pk7-hv-Sz2"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="18"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANa-Z3-JDt">
-                                        <rect key="frame" x="174" y="278" width="5" height="19"/>
+                                        <rect key="frame" x="174" y="278" width="4.5" height="19"/>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="15"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector" translatesAutoresizingMaskIntoConstraints="NO" id="NYL-LB-iXA">
@@ -112,6 +113,7 @@
                                     <constraint firstItem="JoR-ZF-caH" firstAttribute="leading" secondItem="jTx-px-Frj" secondAttribute="leading" id="DZo-6x-eaz"/>
                                     <constraint firstItem="lgm-LK-0yH" firstAttribute="leading" secondItem="jTx-px-Frj" secondAttribute="trailing" constant="23" id="EjA-TC-yT8"/>
                                     <constraint firstItem="MiH-G5-v8k" firstAttribute="centerX" secondItem="WHU-wU-vah" secondAttribute="centerX" id="F9C-2M-iDr"/>
+                                    <constraint firstAttribute="trailing" secondItem="33g-2j-PL2" secondAttribute="trailing" constant="5" id="Hxe-af-0JF"/>
                                     <constraint firstAttribute="bottom" secondItem="NYL-LB-iXA" secondAttribute="bottom" constant="73" id="Jqg-jX-lBr"/>
                                     <constraint firstItem="MiH-G5-v8k" firstAttribute="top" secondItem="WHU-wU-vah" secondAttribute="top" constant="31" id="Kk0-Qa-Ck2"/>
                                     <constraint firstAttribute="height" constant="335" id="NiC-BG-3lc"/>
@@ -124,28 +126,33 @@
                                     <constraint firstItem="33g-2j-PL2" firstAttribute="top" secondItem="WHU-wU-vah" secondAttribute="top" constant="8" id="Z5g-oD-IRW"/>
                                     <constraint firstItem="djR-84-lQp" firstAttribute="top" secondItem="NYL-LB-iXA" secondAttribute="bottom" constant="14" id="akQ-gf-BOP"/>
                                     <constraint firstAttribute="bottom" secondItem="19y-vH-X2c" secondAttribute="bottom" constant="70" id="bWV-PB-95s"/>
-                                    <constraint firstItem="4m9-Ka-ilf" firstAttribute="top" secondItem="WHU-wU-vah" secondAttribute="top" constant="39" id="ez3-kq-TXd"/>
                                     <constraint firstItem="dce-fh-l87" firstAttribute="top" secondItem="WHU-wU-vah" secondAttribute="top" constant="170" id="fnP-Lf-QOf"/>
-                                    <constraint firstAttribute="trailing" secondItem="4m9-Ka-ilf" secondAttribute="trailing" constant="70" id="k0e-Wy-tCi"/>
                                     <constraint firstItem="ANa-Z3-JDt" firstAttribute="leading" secondItem="JoR-ZF-caH" secondAttribute="trailing" constant="25" id="kYJ-NQ-qwR"/>
                                     <constraint firstItem="dce-fh-l87" firstAttribute="centerX" secondItem="WHU-wU-vah" secondAttribute="centerX" id="ogz-yq-eGw"/>
                                     <constraint firstAttribute="bottom" secondItem="JoR-ZF-caH" secondAttribute="bottom" constant="34" id="sdw-8b-wD4"/>
-                                    <constraint firstItem="33g-2j-PL2" firstAttribute="centerX" secondItem="WHU-wU-vah" secondAttribute="centerX" id="wzY-nS-tik"/>
+                                    <constraint firstItem="33g-2j-PL2" firstAttribute="leading" secondItem="WHU-wU-vah" secondAttribute="leading" constant="5" id="wrR-x9-cWy"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 10" translatesAutoresizingMaskIntoConstraints="NO" id="aOh-Fx-x8h">
-                                <rect key="frame" x="164" y="178" width="50" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Union" translatesAutoresizingMaskIntoConstraints="NO" id="suL-9w-7dG">
-                                <rect key="frame" x="139" y="186" width="136" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 652" translatesAutoresizingMaskIntoConstraints="NO" id="aDN-Jb-qYE">
                                 <rect key="frame" x="368" y="57" width="26" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="26" id="3Xr-Wv-6Sc"/>
+                                    <constraint firstAttribute="height" constant="24" id="oyN-ye-Jf2"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="mOC-B5-4FZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="mOC-B5-4FZ">
                                 <rect key="frame" x="20" y="58" width="18" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="2cS-gW-rBq"/>
+                                    <constraint firstAttribute="width" constant="18" id="fuK-ul-7tw"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 650" translatesAutoresizingMaskIntoConstraints="NO" id="Lhh-Zc-kGV">
+                                <rect key="frame" x="121.5" y="189" width="172" height="172"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="172" id="FRi-na-a8n"/>
+                                    <constraint firstAttribute="height" constant="172" id="opo-OI-sQy"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -159,6 +166,8 @@
                             <constraint firstItem="mOC-B5-4FZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JmP-CB-dma"/>
                             <constraint firstItem="aDN-Jb-qYE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="NaQ-2I-zjx"/>
                             <constraint firstItem="mOC-B5-4FZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="14" id="QbK-pi-KIk"/>
+                            <constraint firstItem="WHU-wU-vah" firstAttribute="top" secondItem="Lhh-Zc-kGV" secondAttribute="bottom" constant="46" id="Rjm-zC-ejL"/>
+                            <constraint firstItem="Lhh-Zc-kGV" firstAttribute="centerX" secondItem="WHU-wU-vah" secondAttribute="centerX" id="g2m-8a-x2u"/>
                             <constraint firstItem="fkd-Ko-fFQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mD5-4c-GCO"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
@@ -185,7 +194,6 @@
                         <outlet property="speedView" destination="19y-vH-X2c" id="roz-QN-nqv"/>
                         <outlet property="squareView" destination="WHU-wU-vah" id="RGr-eb-IVn"/>
                         <outlet property="temperatureVIew" destination="MiH-G5-v8k" id="ddU-A2-pff"/>
-                        <outlet property="temperaturesCircle" destination="4m9-Ka-ilf" id="7uo-ve-Iop"/>
                         <outlet property="upperStick" destination="lgm-LK-0yH" id="JlU-IM-eeH"/>
                         <outlet property="windSpeed" destination="jTx-px-Frj" id="mDs-G9-n9n"/>
                     </connections>
@@ -196,9 +204,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Ellipse 10" width="50" height="51"/>
+        <image name="Group 650" width="237" height="196"/>
         <image name="Group 652" width="26" height="24"/>
-        <image name="Union" width="136" height="87"/>
         <image name="Vector" width="20" height="20"/>
         <image name="Vector 11" width="283" height="313"/>
         <image name="Vector 12" width="88" height="237"/>

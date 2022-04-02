@@ -13,22 +13,27 @@ class ViewController: UIViewController {
     @IBOutlet weak var temperatureVIew: UILabel!
     @IBOutlet weak var dateView: UILabel!
     @IBOutlet weak var lowerText: UILabel!
-    @IBOutlet weak var temperaturesCircle: UILabel!
     @IBOutlet weak var windSpeed: UILabel!
     @IBOutlet weak var upperStick: UILabel!
     @IBOutlet weak var speedView: UILabel!
     @IBOutlet weak var humView: UILabel!
     @IBOutlet weak var percentView: UILabel!
-    @IBOutlet weak var lowerStick: UILabel!
-    @IBOutlet weak var locationView: UILabel!
+    @IBOutlet private weak var lowerStick: UILabel!
+    
+    private let backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.3)
     
     
+    // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupUI()
+    }
+    
+    // MARK: - SetupUI
+    private func setupUI() {
         //MARK: squareView
         squareView.layer.cornerRadius = 20
-        squareView.layer.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.3).cgColor
+        squareView.backgroundColor = .whiteAlpha
         squareView.layer.borderWidth = 1
         squareView.layer.borderColor = UIColor.gray.cgColor
         
@@ -52,12 +57,6 @@ class ViewController: UIViewController {
         lowerText.layer.shadowRadius = 50
         lowerText.layer.shadowOpacity = 1
         
-        //MARK: temperaturesCircle
-        temperaturesCircle.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
-        temperaturesCircle.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.1)
-        temperaturesCircle.shadowOffset = CGSize(width: -4, height: 8)
-        temperaturesCircle.layer.shadowRadius = 50
-        temperaturesCircle.layer.shadowOpacity = 1
         
         //MARK: windSpeed
         
@@ -100,10 +99,7 @@ class ViewController: UIViewController {
         lowerStick.shadowOffset = CGSize(width: -2, height: 3)
         lowerStick.layer.shadowRadius = 50
         lowerStick.layer.shadowOpacity = 1
-        
-
-        
     }
-
+    
     
 }
